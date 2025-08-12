@@ -7,7 +7,6 @@ while True:
         truth.append(n % i == 0)
 
     if all(truth):
-        print(truth)
         print(n)
         break
     n += 20
